@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');  
+
+:root{ /* Main Vairables and font*/
+    --main-font: sans-serif;
+	--font-size: 16px;
+    --main-color:#3BFFEB;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
