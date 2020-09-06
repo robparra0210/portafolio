@@ -8,16 +8,65 @@
     <link rel="stylesheet" href="./css/ccsMain.css">
 </head>
 <body>
+
     <header>
-        <img src="./img/Component 1.svg"  alt="">
-
-    
-
-
-
+        <div class="navbar-background"> </div> <!-- Background to put space in header -->
+            <div class="content-navbar">
+                <div class="content-nav1">
+                    <div id="logo-navbar"><a  id="logo" href="#">  <img src="./img/Component 1.svg"  alt=""> </a></div>
+                    <div class="menu-navbar">
+                        <nav class="menu-nav">
+                            <ul class="menu">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#notes">Notes</a></li>
+                                <li><a href="#">Projects</a></li>
+                                <li><a href="#">Resume</a></li>    
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
     </header>
+    
+<main class="main-page">
 
+    <div class="hero">
+        <h2 id="main-title">Hello, I'm <p id="myname"> Roberto</p></h2>
+        <h3>Frontend Web Developer </h3>
+            <div class="icons">
+                <img src="./img/logos/html-five.svg" alt="html5">
+                <img src="./img/logos/css3.svg" alt="css3"> 
+                <img src="./img/logos/javascript.svg" alt="JS"> 
+                <img src="./img/logos/react.svg" alt="React">
+                <img src="./img/logos/github.svg" alt="github">
+                <img src="./img/logos/cisco.svg" alt="cisco">        
+            </div>
+    </div>
+    <div id="notes" class="content">
+        <h2 id="title-notes">Notes</h2>
+        <div class="notes">
+            <div class="note">      
+                    <div class="javascrip">
+                        <img src="./img/js.svg" alt="javascript">    
+                    </div>
+                    <p style="  color: rgba(247, 223, 30, 0.45)">JAVASCRIP</p>
+                </div>
+                
+            <div class="note">
+                <div class="javascrip">
+                    <img src="./img/cisco.svg" alt="javascript">    
+                </div>
+                <p style="  color: rgba(4, 63, 77, 0.25);">CISCO</p>
+            </div>
 
+            <div class="note"><div class="javascrip">
+                    <img src="./img/micro.svg" alt="javascript">    
+                </div>
+                <p style="  color: rgba(0, 0, 0, 0.25)">PIC</p></div>
+        </div>
+    </div>
+    
+</main>
 
 </body>
 </html>
