@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+
+:root{ /* Main Vairables and font*/
+    --main-font: sans-serif;
+	--font-size: 16px;
+    --main-color:#3BFFEB;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+/******************************** Header Start***************************************/
+
+.navbar-background{
+    height: 10em;
+}
+
+.content-navbar{
+    display: inline;
+}
+
+
+.menu li{
+    display:inline-block
+}
+.content-nav1{
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    top:1.5em
+}
+
+
+#logo{
+    display: inline-block;
+}
+
+.menu-nav{
+    position:absolute;
+    right: 0;
+    top:1.5em
+}
+
+.menu-nav a{
+    padding:1em;
+    font-size:23px;
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+    
+}
+
+
+
+/******************************** Header End***************************************/
+
+/******************************** Hero Start***************************************/
+
+
+.hero{
+    margin-top: 6em;
+    text-align:center;
+    font-size: 2em;
+
+}
+
+#myname{
+    display:inline;
+    color: #3BFFEB;
+
+}
+
+#main-title{
+    display: inline-block;
+}
+
+.icons{
+    margin-top: 0.5em;
+}
+
+.icons > *{
+    height: 1.4em;
+    border:0
+}
+
+
+/******************************** Hero End***************************************/
+/******************************** content start***************************************/
+
+.content{
+    margin: 7em 40px 0 40px; 
+    position: relative;
+    
+    
+}
+
+#title-notes{
+    border-bottom: 1px solid black;
+}
+
+.notes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+   
+}
+
+.note{
+    margin-top: 32px;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    background-color: #ECE9E9;
+    align-items: center;
+    position: relative;
+    
+    
+}
+
+
+
+.javascrip img{
+    height: 250px;
+    display: block;
+    width: 250px;
+}
+
+
+.note p{
+    position: absolute;
+    bottom: -10px;
+    font-size: 50px;
+    line-height: 61px;
+}
+
+
+.section{
+    margin-top: 3em 
+}
+
+
+
+.footer{
+    background: #174E66;
+    margin-top: 3rem;
+    height: 8rem;
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.footer div{
+    margin-top:1.5em
+}
+
+
+.contact-footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-footer h3{
+    margin-bottom: 0.5em;    
+}
+
+
+
+.contact-footer a{
+    text-decoration: none;
+    color: black;
+    font-size: bold;
+}
+
+
+.contact-copyright , .contact-bio{
+    
+    padding-top: 2em;
+}
