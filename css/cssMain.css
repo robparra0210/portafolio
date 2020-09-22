@@ -2,40 +2,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
 
 :root{ /* Main Vairables and font*/
-    --main-font: sans-serif;
 	--font-size: 16px;
+    --main-font: sans-serif;
     --main-color:#3BFFEB;
 }
 
 *{
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    min-width: 800px
 }
 
 /******************************** Header Start***************************************/
 
 .navbar-background{
-    height: 10em;
+    height: 7em;
 }
-
-.content-navbar{
-    display: inline;
-}
-
 
 .menu li{
     display:inline-block
 }
-.content-nav1{
+
+
+.content-nav{
+    display: inline;
+    left: 2.5em;
+    right: 0.3em;
     position: absolute;
-    left: 40px;
-    right: 40px;
-    top:1.5em
+    min-width: 800px;
+    top:1.5em;
 }
 
 
@@ -44,16 +44,16 @@ body{
 }
 
 .menu-nav{
-    position:absolute;
     right: 0;
+    position:absolute;
     top:1.5em
 }
 
 .menu-nav a{
-    padding:1em;
+    color: black;
     font-size:23px;
     font-weight: normal;
-    color: black;
+    padding:1em;
     text-decoration: none;
     
 }
@@ -66,17 +66,17 @@ body{
 
 
 .hero{
-    margin-top: 6em;
-    text-align:center;
     font-size: 2em;
+    margin-top: 3em;
+    text-align:center;
 
 }
 
 #myname{
-    display:inline;
     color: #3BFFEB;
-
+    display:inline;
 }
+
 
 #main-title{
     display: inline-block;
@@ -87,8 +87,8 @@ body{
 }
 
 .icons > *{
+    border:0;
     height: 1.4em;
-    border:0
 }
 
 
@@ -114,33 +114,32 @@ body{
 }
 
 .note{
-    margin-top: 32px;
-   /*height: 3empx;*/
-    width: 26vw;
+    align-items: center;
+    background-color: #ECE9E9;
     display: flex;
     justify-content: center;
-    background-color: #ECE9E9;
-    align-items: center;
+    margin-top: 32px;
     position: relative;
-    
-    
+   
+   /*height: 3empx;*/
+   min-width:  30em;    
 }
 
 
 
 .javascrip img{
    /* height: 20vh;*/
-    display: block;
+   display: block;
    width: 18vw;
-   margin:3em;
+   margin:  3em 0 3em 0;
 }
 
 
 .note p{
-    position: absolute;
     bottom: -10px;
     font-size: 2.2em;
     line-height: 61px;
+    position: absolute;
 }
 
 
@@ -152,10 +151,10 @@ body{
 
 .footer{
     background: #174E66;
-    margin-top: 3rem;
-    height: 8rem;
     display:flex;
+    height: 8rem;
     justify-content: space-around;
+    margin-top: 3rem;
 
 }
 
@@ -177,13 +176,12 @@ body{
 
 
 .contact-footer a{
-    text-decoration: none;
     color: black;
     font-size: bold;
+    text-decoration: none;
 }
 
 
-.contact-copyright , .contact-bio{
-    
+.contact-copyright , .contact-bio{    
     padding-top: 2em;
 }
